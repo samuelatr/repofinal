@@ -1,0 +1,250 @@
+.menu_lista {
+  display: block;
+  background-color: black;
+  height: 30px;
+  text-align: center;
+  list-style-type: none;
+  margin-top: 15px;
+  margin-left: 45px;
+  margin-right: 45px; }
+
+.menu_lista_item {
+  display: inline-block;
+  width: 14%;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.cuerpo {
+  background-color: cadetblue; }
+
+.texto_descripcion {
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify; }
+
+.ImgPersonaje:hover {
+  height: 500px;
+  width: 500px; }
+
+.row {
+  padding-left: 500px;
+  padding-top: 200px; }
+
+.cuerpoepisodios {
+  height: 15000px;
+  background-color: cadetblue; }
+
+.VideoRecomendacion {
+  margin-bottom: 50px;
+  width: 800px;
+  height: 400px; }
+
+.Grilla {
+  display: grid;
+  height: 1500px;
+  width: 1500px;
+  grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: ". ImgShu . ImgInori . ImgGai" ". InfoShu . InfoInori . InfoGai" ". ImgAyase . ImgTsugumi . ImgManaOuma" ". InfAyase . InfTsugumi .  InfManaOuma"; }
+
+#ImgManaOuma {
+  grid-area: ImgManaOuma; }
+
+#ShuImg {
+  grid-area: ImgShu; }
+
+#InfoShu {
+  grid-area: InfoShu; }
+
+#InoriImg {
+  grid-area: ImgInori; }
+
+#InfoInori {
+  grid-area: InfoInori; }
+
+#GaiImg {
+  grid-area: ImgGai; }
+
+#InfoGai {
+  grid-area: InfoGai; }
+
+#InfManaOuma {
+  grid-area: InfManaOuma; }
+
+#ImgAyase {
+  grid-area: ImgAyase; }
+
+#InfoAyase {
+  grid-area: InfAyase; }
+
+#InfoTsugumi {
+  grid-area: InfTsugumi; }
+
+#ImgTsugumi {
+  grid-area: ImgTsugumi; }
+
+.InfoPersonajes {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique; }
+
+.CajaRecomendaciones {
+  display: flex;
+  flex-direction: column;
+  height: 10000px;
+  width: 1500px;
+  margin: 0px; }
+
+.RecomendacionTexto {
+  margin-top: 100px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row; }
+
+.TituloRecomendacion {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  text-align: center; }
+
+.Titulo {
+  text-align: center;
+  height: 70px; }
+
+.carousel {
+  height: min-content; }
+
+.carousel-inner > .item > img {
+  height: min-content; }
+
+.ImagenEpisodio {
+  margin-left: 50px;
+  margin-top: 100px;
+  height: 450px;
+  width: 600px; }
+
+.ImagenEpisodioderecha {
+  margin-top: 100px;
+  height: 450px;
+  width: 600px; }
+
+.episodiosflex {
+  display: flex; }
+
+.DivEpisodios {
+  margin-top: 100px; }
+
+.episodioletra {
+  margin-top: 150px;
+  margin-left: 10px;
+  font-size: large; }
+
+.SoundtrackImg {
+  margin-left: 20px;
+  margin-top: 150px;
+  width: 800px; }
+
+.DivSoundtrack {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr; }
+
+.ListaSoundtrack {
+  margin-top: 800 px; }
+
+@media only screen and (max-width: 750px) {
+  .menu_lista {
+    display: inline-block;
+    background-color: black;
+    height: 30px;
+    width: 600px;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 15px;
+    margin-left: 45px;
+    margin-right: 45px; }
+  .menu_lista_item {
+    display: inline-block;
+    width: 15%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small; }
+  .ImagenEpisodio {
+    margin-left: 50px;
+    margin-top: 100px;
+    height: 450px;
+    width: 600px; }
+  .ImagenEpisodioderecha {
+    margin-top: 100px;
+    height: 450px;
+    width: 600px; }
+  .episodiosflex {
+    display: block; }
+  .DivEpisodios {
+    margin-top: 100px; }
+  .episodioletra {
+    margin-top: 150px;
+    margin-left: 10px;
+    font-size: large; }
+  .ImgPersonaje:hover {
+    height: 500px;
+    width: 500px; }
+  .Grilla {
+    display: inline-block;
+    height: 1500px;
+    width: 700px;
+    justify-content: center;
+    margin-left: 200px; }
+  #ImgManaOuma {
+    grid-area: ImgManaOuma; }
+  #ShuImg {
+    grid-area: ImgShu; }
+  #InfoShu {
+    grid-area: InfoShu; }
+  #InoriImg {
+    grid-area: ImgInori; }
+  #InfoInori {
+    grid-area: InfoInori; }
+  #GaiImg {
+    grid-area: ImgGai; }
+  #InfoGai {
+    grid-area: InfoGai; }
+  #InfManaOuma {
+    grid-area: InfManaOuma; }
+  #ImgAyase {
+    grid-area: ImgAyase; }
+  #InfoAyase {
+    grid-area: InfAyase; }
+  #InfoTsugumi {
+    grid-area: InfTsugumi; }
+  #ImgTsugumi {
+    grid-area: ImgTsugumi; }
+  .InfoPersonajes {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique; }
+  .SoundtrackImg {
+    margin-top: 50px;
+    width: 600px; }
+  .DivSoundtrack {
+    display: inline-block;
+    margin-left: 150px; }
+  .ListaSoundtrack {
+    justify-content: center;
+    margin-top: 800 px; }
+  .CajaRecomendaciones {
+    display: block;
+    justify-content: center;
+    margin-left: 500px;
+    height: 10000px;
+    width: 750px;
+    margin: 0px; }
+  .RecomendacionTexto {
+    margin-top: 20px;
+    margin-left: 0px;
+    display: block; }
+  .TituloRecomendacion {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    text-align: center; }
+  .VideoRecomendacion {
+    margin-bottom: 50px;
+    width: 700px;
+    height: 300px; } }
